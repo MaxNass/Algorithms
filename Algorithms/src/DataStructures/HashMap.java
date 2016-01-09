@@ -9,7 +9,7 @@ package DataStructures;
  */
 public class HashMap {
 
-
+	// Count frequencies
 	public static void countFrequencies(int[] arr){
 
 		java.util.HashMap<Integer, Integer> frequencies = new java.util.HashMap<Integer, Integer>();
