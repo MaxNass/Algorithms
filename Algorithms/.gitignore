@@ -1,0 +1,17 @@
+# JetBrains IntelliJ IDEA
+*.ipr
+*.iml
+*.iws
+.idea/
+.out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Apache Maven
+target/
+
+# Logging
+*.log
