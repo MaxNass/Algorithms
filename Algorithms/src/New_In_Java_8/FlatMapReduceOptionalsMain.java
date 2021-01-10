@@ -28,7 +28,6 @@ public class FlatMapReduceOptionalsMain {
         Function<List<Integer>, Stream<Integer>> flatMapper = l -> l.stream();
         list.stream().flatMap(flatMapper).forEach(System.out::println);
 
-
         // Reduce method will use Binary Operation
         // The sum of a empty Stream is the identity element
         // The sum of a Stream with only one element is equal the element
@@ -36,6 +35,7 @@ public class FlatMapReduceOptionalsMain {
         final BinaryOperator<Integer> sum = (i1, i2) -> i1 + i2;
         final BinaryOperator<Integer> betterSum = Integer::sum;
         final Integer id = 0;
+
         // final Stream<Integer> streamInteger = Stream.of(1,2,3,4,5); We are not going to use this anymore cause a new stream must be created for a new operation
         // A stream when it has been used to process a set of data, it cannot be used again to process another set
         final List<Integer> integers = Arrays.asList(1,2,3,4,5);
