@@ -1,4 +1,6 @@
-package designPatters.factory_fabrique;
+package designPatters.factory_fabrique.abstractFactory;
+
+import designPatters.factory_fabrique.Computer;
 
 public class AbstractComputerFactory {
 

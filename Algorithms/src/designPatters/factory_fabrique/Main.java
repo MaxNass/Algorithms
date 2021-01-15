@@ -1,5 +1,9 @@
 package designPatters.factory_fabrique;
 
+import designPatters.factory_fabrique.abstractFactory.AbstractComputerFactory;
+import designPatters.factory_fabrique.abstractFactory.PCFactory;
+import designPatters.factory_fabrique.abstractFactory.ServerFactory;
+
 public class Main {
 
     public static void main(String[] args) {

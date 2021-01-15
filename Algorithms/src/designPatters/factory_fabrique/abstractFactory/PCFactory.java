@@ -1,4 +1,7 @@
-package designPatters.factory_fabrique;
+package designPatters.factory_fabrique.abstractFactory;
+
+import designPatters.factory_fabrique.Computer;
+import designPatters.factory_fabrique.PC;
 
 public class PCFactory implements ComputerAbstractFactory {
 
