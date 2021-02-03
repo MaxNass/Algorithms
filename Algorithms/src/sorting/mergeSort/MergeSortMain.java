@@ -1,7 +1,7 @@
 /**
  * 
  */
-package mergeSort;
+package sorting.mergeSort;
 
 /**
  * @author MaxNass
