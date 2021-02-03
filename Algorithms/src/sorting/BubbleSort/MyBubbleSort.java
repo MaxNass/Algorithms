@@ -1,7 +1,7 @@
 /**
  * 
  */
-package BubbleSort;
+package sorting.BubbleSort;
 
 /**
  * @author MaxNass
@@ -9,7 +9,7 @@ package BubbleSort;
  */
 /*
  * computational complexity
- * average complexity : ¶(n2)
+ * average complexity : ï¿½(n2)
  */
 public class MyBubbleSort {
 	

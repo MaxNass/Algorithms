@@ -1,11 +1,11 @@
-package HeapSort;
+package sorting.HeapSort;
 
 /**
  * 
  * @author MaxNass
  */
 /*
- * algorithm complexity ¶(nlogn)
+ * algorithm complexity ï¿½(nlogn)
  */
 public class MyHeapSort {
 	

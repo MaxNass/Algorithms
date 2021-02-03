@@ -1,7 +1,7 @@
 /**
  * 
  */
-package InsertionSort;
+package sorting.InsertionSort;
 
 /**
  * @author MaxNass
@@ -10,7 +10,7 @@ package InsertionSort;
 /*
  * computational complexity
  * Same complexity with bubble sort but a little bit faster and stable
- * average complexity : ¶(n2)
+ * average complexity : ï¿½(n2)
  */
 public class MyInsertionSort {
 	

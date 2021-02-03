@@ -1,7 +1,7 @@
 /**
  * 
  */
-package QuickSort;
+package sorting.QuickSort;
 
 /**
  * @author MaxNass
@@ -9,10 +9,10 @@ package QuickSort;
  */
 /*
  * computational complexity
- * Average complexity : ¶(nlogn) 
- * sorted list : ¶(n2) 
+ * Average complexity : ï¿½(nlogn) 
+ * sorted list : ï¿½(n2) 
  * Choosing the appropriate pivot, as for example the median element is fundamental
- * for avoiding the drastically reduced performance of ¶(n2)
+ * for avoiding the drastically reduced performance of ï¿½(n2)
  */
 public class MyQuickSort {
 	

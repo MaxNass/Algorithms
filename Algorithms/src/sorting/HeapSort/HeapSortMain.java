@@ -1,7 +1,7 @@
 /**
  * 
  */
-package HeapSort;
+package sorting.HeapSort;
 
 /**
  * @author MaxNass
